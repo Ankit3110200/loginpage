@@ -1,0 +1,71 @@
+body{
+    background-image: url("office.jpeg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+.crome{
+    margin: 30px;
+    position: relative;
+}
+.login{
+    color: black;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px 10px 10px 10px gray;
+}
+.main{
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+}
+.email{
+text-align: center;
+margin-left: 30px;
+margin-bottom: 20px;
+position: relative;
+}
+.password{
+    text-align: center;
+    margin-left: 30px;
+    position: relative;
+}
+.check{
+    margin-top: 4px;
+    margin-left: -10px;
+}
+.button{
+margin-top: 10px;
+margin-left: 30px;
+color: white;
+background-color: blue;
+width: 180px;
+height: 40px;
+border-radius: 30px;
+}
+.left{
+    float: left;
+    margin-left: 125px;
+    font-size: 70%;
+}
+.right{
+    float: right;
+    margin-right: 100px;
+    font-size: 70%;
+}
+.left a,.right a{
+    color:black;
+}
+.elogin{
+    display: inline-block;
+    margin-top: 3px;
+    margin-left: 30px;
+}
+.footer{
+    text-align: center;
+}
