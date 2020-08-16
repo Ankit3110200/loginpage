@@ -3,6 +3,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-repeat: no-repeat;
+    background-size: cover;
     justify-content: center;
 }
 .crome{
@@ -68,4 +69,15 @@ border-radius: 30px;
 }
 .footer{
     text-align: center;
+}
+@media only screen and (max-width:600px) 
+{
+.login{
+    color: black;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    box-shadow: 10px 10px 10px 10px gray;
+}
 }
